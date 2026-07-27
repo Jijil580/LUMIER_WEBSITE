@@ -85,32 +85,40 @@ export default function Home() {
           <p>Purpose-built platforms that bring people, processes, and performance together.</p>
         </div>
 
-        <article className="product-card interlock-card">
+        <article className="product-card brickflow-card">
           <div className="product-copy">
-            <span className="product-number">01 / Operations</span>
-            <div className="product-icon">IL</div>
-            <h3>Interlock</h3>
-            <p className="product-tagline">Your complete management app.</p>
-            <p>Bring projects, people, cash flow, approvals, and daily activity into one connected workspace.</p>
+            <span className="product-number">01 / Manufacturing operations</span>
+            <div className="product-icon">BF</div>
+            <h3>BrickFlow</h3>
+            <p className="product-tagline">The complete company manager for interlock &amp; hollow-brick businesses.</p>
+            <p>Connect orders, production, materials, stock, deliveries, cash flow, staff, and customers in one purpose-built workspace.</p>
             <ul>
-              <Check>Real-time operational visibility</Check>
-              <Check>Team and workflow coordination</Check>
-              <Check>Clear reports for faster decisions</Check>
+              <Check>Production and raw-material tracking</Check>
+              <Check>Orders, dispatch, and customer accounts</Check>
+              <Check>Cash flow, teams, and business reports</Check>
             </ul>
-            <a className="button button-dark" href="#contact">Discover Interlock <Arrow /></a>
+            <a className="button button-dark" href="#contact">Discover BrickFlow <Arrow /></a>
           </div>
-          <div className="interlock-visual">
+          <div className="brickflow-visual">
+            <div className="brick-yard" aria-hidden="true">
+              <div className="hollow-stack"><i /><i /><i /><i /><i /><i /></div>
+              <div className="paver-stack"><i /><i /><i /><i /><i /><i /><i /><i /></div>
+              <span>Production yard</span>
+            </div>
             <div className="phone phone-back">
               <div className="phone-screen"><span>Payments</span><strong>₹ 1,28,500</strong><div className="donut" /><small>On track this month</small></div>
             </div>
             <div className="phone phone-front">
-              <div className="phone-screen"><div className="phone-welcome"><span>INTERLOCK</span><b>•••</b></div><p>Good afternoon</p><h4>Your workspace</h4><div className="quick-grid"><i>Projects</i><i>Cash flow</i><i>Teams</i><i>Reports</i></div><div className="task-line"><span>Today&apos;s activity</span><b>12 updates</b></div><div className="mini-list"><i /><i /><i /></div></div>
+              <div className="phone-screen"><div className="phone-welcome"><span>BRICKFLOW</span><b>•••</b></div><p>Good afternoon</p><h4>Your factory</h4><div className="quick-grid"><i>Production</i><i>Cash flow</i><i>Dispatch</i><i>Reports</i></div><div className="task-line"><span>Today&apos;s activity</span><b>12 updates</b></div><div className="mini-list"><i /><i /><i /></div></div>
             </div>
           </div>
         </article>
 
         <article className="product-card retail-card">
           <div className="retail-visual">
+            <div className="retail-shelf" aria-hidden="true">
+              <span className="product-box tall">A</span><span className="product-bottle">B</span><span className="product-box">C</span><span className="product-jar">D</span><span className="product-box wide">E</span>
+            </div>
             <div className="pos-window">
               <div className="pos-bar"><span className="pos-logo">R</span><b>RETAIL BOSS</b><span>Register 01</span></div>
               <div className="pos-content">
