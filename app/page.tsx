@@ -181,14 +181,21 @@ export default function Home() {
           <h2>Have a challenge in mind?</h2>
           <p>Tell us where you want to go. We&apos;ll help you find the clearest way forward.</p>
         </div>
-        <a className="contact-button" href="mailto:sales@lumiertechnologies.com">Start a conversation <Arrow /></a>
+        <div className="contact-actions">
+          <a className="contact-button whatsapp-button" href="https://wa.me/919645049580?text=Hello%20Lumier%20Technologies%2C%20I%27d%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer" aria-label="Chat with Lumier Technologies on WhatsApp">
+            <span className="whatsapp-mark" aria-hidden="true">◉</span>
+            Chat on WhatsApp
+            <small>+91 96450 49580</small>
+          </a>
+          <a className="contact-email" href="mailto:sales@lumiertechnologies.com">Or send us an email <Arrow /></a>
+        </div>
       </section>
 
       <footer>
         <div className="shell footer-main">
           <a className="brand footer-brand" href="#home"><span className="brand-mark" aria-hidden="true"><i>L</i><i>T</i></span><span className="brand-name">LUMIER<br /><b>TECHNOLOGIES</b></span></a>
           <p>Thoughtful technology for better business.</p>
-          <div className="footer-links"><a href="#products">Products</a><a href="#solutions">Solutions</a><a href="#company">Company</a><a href="mailto:sales@lumiertechnologies.com">Contact</a></div>
+          <div className="footer-links"><a href="#products">Products</a><a href="#solutions">Solutions</a><a href="#company">Company</a><a href="https://wa.me/919645049580?text=Hello%20Lumier%20Technologies%2C%20I%27d%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer">WhatsApp</a></div>
         </div>
         <div className="shell footer-bottom"><span>© 2026 Lumier Technologies. All rights reserved.</span><a href="#home">Back to top ↑</a></div>
       </footer>
