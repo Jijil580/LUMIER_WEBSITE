@@ -11,7 +11,7 @@ export default function Home() {
         <div className="nav-wrap">
           <nav className="nav" aria-label="Main navigation">
             <a className="brand" href="#home" aria-label="Lumier Technologies home">
-              <span className="brand-mark" aria-hidden="true"><i>L</i><i>T</i></span>
+              <span className="brand-mark brand-logo-crop" aria-hidden="true"><img src="/lumier-technologies-logo-excellent.png" alt="" /></span>
               <span className="brand-name">LUMIER<br /><b>TECHNOLOGIES</b></span>
             </a>
             <div className="nav-links">
@@ -193,7 +193,7 @@ export default function Home() {
 
       <footer>
         <div className="shell footer-main">
-          <a className="brand footer-brand" href="#home"><span className="brand-mark" aria-hidden="true"><i>L</i><i>T</i></span><span className="brand-name">LUMIER<br /><b>TECHNOLOGIES</b></span></a>
+          <a className="brand footer-brand" href="#home" aria-label="Lumier Technologies home"><img className="footer-logo-image" src="/lumier-technologies-logo-excellent.png" alt="Lumier Technologies" /></a>
           <p>Thoughtful technology for better business.</p>
           <div className="footer-links"><a href="#products">Products</a><a href="#solutions">Solutions</a><a href="#company">Company</a><a href="https://wa.me/919645049580?text=Hello%20Lumier%20Technologies%2C%20I%27d%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer">WhatsApp</a></div>
         </div>
