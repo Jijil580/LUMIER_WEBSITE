@@ -25,17 +25,17 @@ export default function Home() {
 
         <div className="hero-grid shell">
           <div className="hero-copy">
-            <p className="eyebrow"><span /> Built for ambitious businesses</p>
-            <h1>Technology that keeps your business <em>moving forward.</em></h1>
-            <p className="hero-lede">Lumier Technologies creates practical digital products that connect operations, simplify retail, and turn everyday work into measurable progress.</p>
+            <p className="eyebrow"><span /> Enterprise technology. Built with purpose.</p>
+            <h1>Software infrastructure for businesses that <em>build and sell.</em></h1>
+            <p className="hero-lede">Lumier Technologies engineers focused digital platforms that unify operations, strengthen control, and give growing businesses the clarity to move with confidence.</p>
             <div className="hero-actions">
               <a className="button button-light" href="#products">Explore our products <Arrow /></a>
               <a className="text-link" href="#contact">Discuss your project <span>→</span></a>
             </div>
             <div className="hero-proof">
-              <div><strong>01</strong><span>Operations,<br />connected</span></div>
-              <div><strong>02</strong><span>Decisions,<br />made clearer</span></div>
-              <div><strong>03</strong><span>Growth,<br />made simpler</span></div>
+              <div><strong>01</strong><span>Connected<br />operations</span></div>
+              <div><strong>02</strong><span>Real-time<br />control</span></div>
+              <div><strong>03</strong><span>Systems built<br />to scale</span></div>
             </div>
           </div>
 
@@ -68,21 +68,28 @@ export default function Home() {
             <div className="float-card float-sync"><span className="pulse">✓</span><div><strong>All systems synced</strong><small>Updated just now</small></div></div>
           </div>
         </div>
-        <div className="hero-bottom">Product thinking <span>•</span> Reliable engineering <span>•</span> Lasting partnerships</div>
+        <div className="hero-bottom">Business platforms <span>•</span> Product engineering <span>•</span> Cloud solutions <span>•</span> Technology advisory</div>
+      </section>
+
+      <section className="capability-strip shell" aria-label="Lumier enterprise capabilities">
+        <p>One technology partner.<br /><strong>End-to-end clarity.</strong></p>
+        <div><span>01</span><h3>Purpose-built</h3><small>Solutions shaped around real business workflows.</small></div>
+        <div><span>02</span><h3>Business-ready</h3><small>Clear interfaces designed for everyday adoption.</small></div>
+        <div><span>03</span><h3>Growth-minded</h3><small>Technology that can evolve with your ambition.</small></div>
       </section>
 
       <section className="intro shell" id="company">
-        <p className="section-label">What we do</p>
+        <p className="section-label">Our perspective</p>
         <div>
-          <h2>We turn complex business workflows into software that feels <em>remarkably simple.</em></h2>
-          <p>From daily operations to the retail counter, our products help teams work with clarity, confidence, and control.</p>
+          <h2>We build the operating layer for <em>modern business.</em></h2>
+          <p>From the factory floor to the retail counter, our platforms connect people, processes, and decisions—turning operational complexity into a clear advantage.</p>
         </div>
       </section>
 
       <section className="products shell" id="products">
         <div className="section-heading">
-          <div><p className="section-label">Our products</p><h2>Made for real work.</h2></div>
-          <p>Purpose-built platforms that bring people, processes, and performance together.</p>
+          <div><p className="section-label">Our platforms</p><h2>Focused by industry.<br />Built for performance.</h2></div>
+          <p>Purpose-built business systems that bring people, processes, and performance into one dependable operating view.</p>
         </div>
 
         <article className="product-card brickflow-card">
@@ -147,8 +154,8 @@ export default function Home() {
       <section className="solutions" id="solutions">
         <div className="shell">
           <div className="section-heading light-heading">
-            <div><p className="section-label">Beyond products</p><h2>Digital solutions,<br />built around you.</h2></div>
-            <p>Need something more specific? We design and engineer business technology shaped around your goals.</p>
+            <div><p className="section-label">Enterprise capability</p><h2>Strategy through<br />execution.</h2></div>
+            <p>When an off-the-shelf answer is not enough, we design and engineer technology around your operating model and long-term goals.</p>
           </div>
           <div className="service-grid">
             <article><span>01</span><div className="service-symbol">⌁</div><h3>Custom software</h3><p>Tailored platforms that streamline how your business operates.</p><a href="#contact" aria-label="Learn about custom software">↗</a></article>
@@ -159,11 +166,23 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="standards shell">
+        <div className="standards-heading">
+          <p className="section-label">The Lumier standard</p>
+          <h2>Built with discipline.<br /><em>Delivered with care.</em></h2>
+        </div>
+        <div className="standards-grid">
+          <article><span>01</span><h3>Operational clarity</h3><p>We simplify the work that matters, so teams can act with speed and confidence.</p></article>
+          <article><span>02</span><h3>Product discipline</h3><p>Every interaction is considered, every feature has a purpose, and every release is built for real use.</p></article>
+          <article><span>03</span><h3>Partnership mindset</h3><p>We communicate clearly, stay accountable, and evolve the technology alongside your business.</p></article>
+        </div>
+      </section>
+
       <section className="approach shell">
         <div className="approach-copy">
           <p className="section-label">How we work</p>
-          <h2>Clear thinking.<br /><em>Strong execution.</em></h2>
-          <p>We stay close to the problem, communicate openly, and build with the long term in mind.</p>
+          <h2>Disciplined process.<br /><em>Durable outcomes.</em></h2>
+          <p>We stay close to the business problem, communicate openly, and engineer with the long term in mind.</p>
           <a className="text-link dark-link" href="#contact">Start a conversation <span>→</span></a>
         </div>
         <div className="steps">
@@ -178,8 +197,8 @@ export default function Home() {
         <div className="contact-orb">L</div>
         <div className="contact-copy">
           <p className="section-label">Let&apos;s build what&apos;s next</p>
-          <h2>Have a challenge in mind?</h2>
-          <p>Tell us where you want to go. We&apos;ll help you find the clearest way forward.</p>
+          <h2>Ready to modernize your operations?</h2>
+          <p>Tell us what needs to work better. We&apos;ll help you define the clearest path from challenge to working solution.</p>
         </div>
         <div className="contact-actions">
           <a className="contact-button whatsapp-button" href="https://wa.me/919645049580?text=Hello%20Lumier%20Technologies%2C%20I%27d%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer" aria-label="Chat with Lumier Technologies on WhatsApp">
