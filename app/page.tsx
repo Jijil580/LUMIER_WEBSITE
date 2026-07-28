@@ -207,6 +207,10 @@ export default function Home() {
             <small>+91 96450 49580</small>
           </a>
           <a className="contact-email" href="mailto:sales@lumiertechnologies.com">Or send us an email <Arrow /></a>
+          <address className="contact-address">
+            <span aria-hidden="true">⌖</span>
+            <div><small>Company location</small><strong>Uttam Nagar, New Delhi, India</strong></div>
+          </address>
         </div>
       </section>
 
@@ -216,7 +220,7 @@ export default function Home() {
           <p>Thoughtful technology for better business.</p>
           <div className="footer-links"><a href="#products">Products</a><a href="#solutions">Solutions</a><a href="#company">Company</a><a href="https://wa.me/919645049580?text=Hello%20Lumier%20Technologies%2C%20I%27d%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer">WhatsApp</a></div>
         </div>
-        <div className="shell footer-bottom"><span>© 2026 Lumier Technologies. All rights reserved.</span><a href="#home">Back to top ↑</a></div>
+        <div className="shell footer-bottom"><span>© 2026 Lumier Technologies. All rights reserved.</span><span>Uttam Nagar, New Delhi, India</span><a href="#home">Back to top ↑</a></div>
       </footer>
     </main>
   );
