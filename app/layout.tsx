@@ -13,18 +13,19 @@ export async function generateMetadata(): Promise<Metadata> {
   const origin = `${protocol}://${host}`;
 
   return {
-    title: "Lumier Technologies | Business Software That Moves You Forward",
-    description: "Lumier Technologies builds practical business software, including BrickFlow for interlock and hollow-brick companies and the Retail Boss retail platform.",
+    title: "Necsa Lumier Technologies | Enterprise Business Software",
+    description: "Necsa Lumier Technologies builds premium business software, including BrickFlow for interlock and hollow-brick companies and the Retail Boss retail platform.",
+    icons: { icon: "/necsa-lumier-logo.png", apple: "/necsa-lumier-logo.png" },
     openGraph: {
-      title: "Lumier Technologies",
-      description: "Technology that keeps your business moving forward.",
+      title: "Necsa Lumier Technologies",
+      description: "Enterprise technology for businesses that build and sell.",
       type: "website",
-      images: [{ url: `${origin}/og.png`, width: 1200, height: 630, alt: "Lumier Technologies — BrickFlow and Retail Boss" }],
+      images: [{ url: `${origin}/og.png`, width: 1200, height: 630, alt: "Necsa Lumier Technologies — BrickFlow and Retail Boss" }],
     },
     twitter: {
       card: "summary_large_image",
-      title: "Lumier Technologies",
-      description: "Technology that keeps your business moving forward.",
+      title: "Necsa Lumier Technologies",
+      description: "Enterprise technology for businesses that build and sell.",
       images: [`${origin}/og.png`],
     },
   };

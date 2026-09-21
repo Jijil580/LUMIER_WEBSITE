@@ -10,9 +10,9 @@ export default function Home() {
       <section className="hero" id="home">
         <div className="nav-wrap">
           <nav className="nav" aria-label="Main navigation">
-            <a className="brand" href="#home" aria-label="Lumier Technologies home">
-              <span className="brand-mark brand-logo-crop" aria-hidden="true"><img src="/lumier-technologies-logo-excellent.png" alt="" /></span>
-              <span className="brand-name">LUMIER<br /><b>TECHNOLOGIES</b></span>
+            <a className="brand" href="#home" aria-label="Necsa Lumier Technologies home">
+              <span className="brand-mark brand-logo-crop" aria-hidden="true"><img src="/necsa-lumier-logo.png" alt="" /></span>
+              <span className="brand-name">NECSA LUMIER<br /><b>TECHNOLOGIES</b></span>
             </a>
             <div className="nav-links">
               <a href="#products">Products</a>
@@ -27,7 +27,7 @@ export default function Home() {
           <div className="hero-copy">
             <p className="eyebrow"><span /> Enterprise technology. Built with purpose.</p>
             <h1>Software infrastructure for businesses that <em>build and sell.</em></h1>
-            <p className="hero-lede">Lumier Technologies engineers focused digital platforms that unify operations, strengthen control, and give growing businesses the clarity to move with confidence.</p>
+            <p className="hero-lede">Necsa Lumier Technologies engineers focused digital platforms that unify operations, strengthen control, and give growing businesses the clarity to move with confidence.</p>
             <div className="hero-actions">
               <a className="button button-light" href="#products">Explore our products <Arrow /></a>
               <a className="text-link" href="#contact">Discuss your project <span>→</span></a>
@@ -39,12 +39,12 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="product-stage" aria-label="Lumier product interface preview">
+          <div className="product-stage" aria-label="Necsa Lumier product interface preview">
             <div className="orbit orbit-one" />
             <div className="orbit orbit-two" />
             <div className="dashboard-card">
               <div className="dash-top">
-                <span className="mini-logo">L</span>
+                <span className="mini-logo">NL</span>
                 <span className="dash-title">Business overview</span>
                 <span className="avatar">AK</span>
               </div>
@@ -71,7 +71,7 @@ export default function Home() {
         <div className="hero-bottom">Business platforms <span>•</span> Product engineering <span>•</span> Cloud solutions <span>•</span> Technology advisory</div>
       </section>
 
-      <section className="capability-strip shell" aria-label="Lumier enterprise capabilities">
+      <section className="capability-strip shell" aria-label="Necsa Lumier enterprise capabilities">
         <p>One technology partner.<br /><strong>End-to-end clarity.</strong></p>
         <div><span>01</span><h3>Purpose-built</h3><small>Solutions shaped around real business workflows.</small></div>
         <div><span>02</span><h3>Business-ready</h3><small>Clear interfaces designed for everyday adoption.</small></div>
@@ -168,7 +168,7 @@ export default function Home() {
 
       <section className="standards shell">
         <div className="standards-heading">
-          <p className="section-label">The Lumier standard</p>
+          <p className="section-label">The Necsa Lumier standard</p>
           <h2>Built with discipline.<br /><em>Delivered with care.</em></h2>
         </div>
         <div className="standards-grid">
@@ -194,14 +194,14 @@ export default function Home() {
       </section>
 
       <section className="contact shell" id="contact">
-        <div className="contact-orb">L</div>
+        <div className="contact-orb">N</div>
         <div className="contact-copy">
           <p className="section-label">Let&apos;s build what&apos;s next</p>
           <h2>Ready to modernize your operations?</h2>
           <p>Tell us what needs to work better. We&apos;ll help you define the clearest path from challenge to working solution.</p>
         </div>
         <div className="contact-actions">
-          <a className="contact-button whatsapp-button" href="https://wa.me/919645049580?text=Hello%20Lumier%20Technologies%2C%20I%27d%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer" aria-label="Chat with Lumier Technologies on WhatsApp">
+          <a className="contact-button whatsapp-button" href="https://wa.me/919645049580?text=Hello%20Necsa%20Lumier%20Technologies%2C%20I%27d%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer" aria-label="Chat with Necsa Lumier Technologies on WhatsApp">
             <span className="whatsapp-mark" aria-hidden="true">◉</span>
             Chat on WhatsApp
             <small>+91 96450 49580</small>
@@ -216,11 +216,11 @@ export default function Home() {
 
       <footer>
         <div className="shell footer-main">
-          <a className="brand footer-brand" href="#home" aria-label="Lumier Technologies home"><img className="footer-logo-image" src="/lumier-technologies-logo-excellent.png" alt="Lumier Technologies" /></a>
+          <a className="brand footer-brand" href="#home" aria-label="Necsa Lumier Technologies home"><img className="footer-logo-image" src="/necsa-lumier-logo.png" alt="Necsa Lumier Technologies" /></a>
           <p>Thoughtful technology for better business.</p>
-          <div className="footer-links"><a href="#products">Products</a><a href="#solutions">Solutions</a><a href="#company">Company</a><a href="https://wa.me/919645049580?text=Hello%20Lumier%20Technologies%2C%20I%27d%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer">WhatsApp</a></div>
+          <div className="footer-links"><a href="#products">Products</a><a href="#solutions">Solutions</a><a href="#company">Company</a><a href="https://wa.me/919645049580?text=Hello%20Necsa%20Lumier%20Technologies%2C%20I%27d%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer">WhatsApp</a></div>
         </div>
-        <div className="shell footer-bottom"><span>© 2026 Lumier Technologies. All rights reserved.</span><span>Uttam Nagar, New Delhi, India</span><a href="#home">Back to top ↑</a></div>
+        <div className="shell footer-bottom"><span>© 2026 Necsa Lumier Technologies. All rights reserved.</span><span>Uttam Nagar, New Delhi, India</span><a href="#home">Back to top ↑</a></div>
       </footer>
     </main>
   );
